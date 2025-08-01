@@ -1,0 +1,3 @@
+# JULY-2025-COHORT-HACHATHON--1
+Personal Portfolio Website
+This is a simple Personal Portfolio Website built using basic HTML and CSS. It showcases my profile as a beginner software developer, featuring sections like About Me, Skills, Education, Interests, and Projects. The portfolio highlights two sample projects—a Profile Card and a Business Landing Page—with links to their respective GitHub repositories. The site also includes a contact form and a downloadable CV link. This project is designed to practice fundamental web development skills and serve as a foundation for more advanced portfolio designs in the future.
