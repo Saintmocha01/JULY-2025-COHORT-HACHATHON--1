@@ -1,12 +1,10 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>MATHEWS MOMANYI MOCHA | PORTFOLIO</title>
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <style>
-        *{
+          *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -159,17 +157,17 @@
 </head>
 <body>
 
-    <header data-aos="fade-down">
+    <header>
         <h1>MATHEWS MOMANYI MOCHA</h1>
         <p>Beginner Software Developer | Tech Enthusiast</p>
     </header>
 
-    <section id="about" data-aos="fade-up">
+    <section id="about">
         <h2>ABOUT ME</h2>
         <p>I am an aspiring software developer passionate about building impactful solutions using technology. I enjoy learning new programming languages and collaborating in tech communities.</p>
     </section>
 
-    <section id="skills" data-aos="zoom-in">
+    <section id="skills">
         <h2>PROGRAMMING LANGUAGES</h2>
         <ul>
             <li>HTML (Learning)</li>
@@ -179,34 +177,34 @@
         </ul>
     </section>
 
-    <section id="education" data-aos="fade-right">
+    <section id="education">
         <h2>EDUCATION</h2>
         <p>Self-taught Developer | Online Courses | Hackathon Enthusiast</p>
         <a href="Mathews_Mocha_CV.pdf" download>Download My CV</a>
     </section>
 
-    <section id="interests" data-aos="fade-left">
+    <section id="interests">
         <h2>INTERESTS</h2>
         <p>I am excited by Artificial Intelligence, Web Development, and building user-friendly digital products. My goal is to create innovative solutions that make life easier.</p>
     </section>
 
-    <section id="projects" data-aos="zoom-in-up">
+    <section id="projects">
         <h2>PROJECTS</h2>
-        <div class="project" data-aos="fade-up">
+        <div class="project">
             <h3>Profile Card Webpage</h3>
             <p>A simple web card displaying a profile picture, bio, and social links.</p>
             <a href="https://github.com/Saintmocha01/PROJECT1" target="_blank">View Project</a>
         </div>
-        <div class="project" data-aos="fade-up" data-aos-delay="100">
+        <div class="project">
             <h3>Business Landing Page</h3>
             <p>A basic landing page layout showcasing a brand's name and services.</p>
             <a href="https://github.com/Saintmocha01/PROJECT2" target="_blank">View Project</a>
         </div>
     </section>
-
-    <section id="contact" data-aos="fade-up">
+    
+    <section id="contact">
         <h2>CONTACT ME</h2>
-        <form action="https://formspree.io/account/{form_id}" method="post">
+        <form action="https://formspree.io/account" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -220,22 +218,10 @@
         </form>
     </section>
 
-    <footer data-aos="fade-up">
+    <footer>
         <p>&copy; 2025 Mathews Momanyi Mocha. All rights reserved.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 1000,
-        once: true
-      });
-      
-      gsap.from("header h1", { duration: 1.2, y: -50, opacity: 0, ease: "bounce" });
-      gsap.from("header p", { duration: 1, delay: 0.5, opacity: 0, y: 20 });
-      gsap.from("form button", { duration: 1, delay: 1, scale: 0.5, opacity: 0, ease: "elastic" });
-    </script>
-
 </body>
 </html>
-
+ 
